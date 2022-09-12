@@ -1,0 +1,11 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
+namespace FA22.P04.Web.Features.Listings;
+
+public class ListingConfiguration : IEntityTypeConfiguration<Listing>
+{
+    public void Configure(EntityTypeBuilder<Listing> builder)
+    {
+    }
+}
